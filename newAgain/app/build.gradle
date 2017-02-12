@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "24.0.1"
     defaultConfig {
-        applicationId "com.example.mt_2016.databinding"
+        applicationId "com.example.mt_2016.newagain"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -15,11 +15,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }}
-        dataBinding{
-            enabled = true;
         }
-
+    }
+    dataBinding{
+        enabled = true
+    }
 }
 
 dependencies {
